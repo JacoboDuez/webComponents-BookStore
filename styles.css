@@ -1,0 +1,44 @@
+
+:root{
+    --background-Normal:rgba(7, 71, 95, 0.777);
+    --margin-Normal:rgba(156, 179, 171, 0.923);
+
+}
+
+.card{
+   margin-bottom:25px;
+   border-color: #6c757d; 
+}
+
+.card-header{
+    background-color:#6c757d;
+    color: white;
+}
+
+.divider{
+    border-color:#0d6efd;
+    background-color: #0d6efd;
+    text-align:center;
+}
+
+h1{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.text-success{
+    font-weight: bold;
+    color:rgb(38, 127, 38);
+}
+
+body{
+    background-color:var(--background-Normal);
+    margin:2px solid var(--margin-Normal);
+    border-radius: 4px;
+}
+
+#cardColor{
+    background-color: var(--margin-Normal);
+    font:bold;
+    
+}
